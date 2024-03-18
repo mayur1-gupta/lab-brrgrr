@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -10,21 +9,18 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-
-
 .header {
     position: relative;
 }
 
-
-.Group-4 {
+.group-4 {
     width: 1440px;
     height: 208px;
     object-fit: contain;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
 }
 
-.Group-5 {
+.group-5 {
     position: absolute;
     z-index: 1;
     top: 0%;
@@ -36,17 +32,14 @@ body {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
 }
 
-.Rectangle1 {
+.rectangle-1 {
     position: relative;
     width: 100%;
     height: 400px;
     background-color: #212121;
 }
 
-
-
-
-.Group-7 {
+.group-7 {
     width: 240px;
     height: 301px;
     object-fit: contain;
@@ -55,15 +48,14 @@ body {
     right: 10%;
 }
 
-.Group-3 {
+.group-3 {
     position: relative;
     width: 1440px;
     height: 220px;
     object-fit: contain;
 }
 
-
-.Group-2 {
+.group-2 {
     position: absolute;
     top: 20%;
     left: 5%;
@@ -72,7 +64,7 @@ body {
     object-fit: contain;
 }
 
-.Rectangle2 {
+.rectangle-2 {
     position: absolute;
     top: 0%;
     left: 5%;
@@ -118,16 +110,14 @@ body {
 }
 
 .button.active {
-
     width: 112px;
     height: 58px;
     background-color: #ffd058;
     line-height: 58px;
     text-align: center;
-
 }
 
-.Rectangle3 {
+.rectangle-3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +131,7 @@ body {
     background-color: #ffffff;
 }
 
-.Rectangle4 {
+.rectangle-4 {
     position: relative;
     width: 430px;
     height: 159px;
@@ -149,12 +139,10 @@ body {
     color: white;
 }
 
-.Group-16 {
-
+.group-16 {
     width: 158px;
     height: 170px;
     object-fit: contain;
-
 }
 
 .menu {
@@ -193,23 +181,21 @@ body {
     height: auto;
 }
 
-.Rectangle4 p {
+.rectangle-4 p {
     font-size: 16px;
     margin-left: 20px;
 }
 
-.Rectangle4 p:nth-child(1) {
+.rectangle-4 p:nth-child(1) {
     margin-top: 20px;
 }
 
-.Rectangle4 p.price-details {
+.rectangle-4 p.price-details {
     font-size: 30px;
     font-weight: bold;
-
 }
 
-.Rectangle5 {
-
+.rectangle-5 {
     position: absolute;
     bottom: 10%;
     right: 5%;
@@ -222,11 +208,12 @@ body {
     text-align: center;
     line-height: 42px;
 }
-.footers{
-	position: absolute;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-	font-style: normal;
+
+.footers {
+    position: absolute;
+    top: 750px;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-style: normal;
 }
